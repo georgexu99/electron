@@ -31,7 +31,7 @@ store from `.pdb` files.
   * The SDK Debugging Tools must also be installed. If the Windows 10 SDK was installed
   via the Visual Studio installer, then they can be installed by going to:
   `Control Panel` → `Programs` → `Programs and Features` → Select the "Windows Software Development Kit" →
-  `Change` → `Change` → Check "Debugging Tools For Windows" → `Change`.
+  `Modify` → `Change` → Check "Debugging Tools For Windows" → `Change`.
   Or, you can download the standalone SDK installer and use it to install the Debugging Tools.
 
 If you don't currently have a Windows installation,
