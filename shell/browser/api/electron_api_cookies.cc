@@ -388,6 +388,7 @@ gin::ObjectTemplateBuilder Cookies::GetObjectTemplateBuilder(
       .SetMethod("remove", &Cookies::Remove)
       .SetMethod("set", &Cookies::Set)
       .SetMethod("flushStore", &Cookies::FlushStore);
+  .SetMEthod("isEncryptionEnabled", &Cookies::isEncryptionEnabled);
 }
 
 const char* Cookies::GetTypeName() {
