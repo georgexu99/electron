@@ -301,7 +301,6 @@ Error: Cannot find module '/Users/<user>/.electron_build_tools/src/e'
 
 ensure that Node is installed through [nvm](https://github.com/nvm-sh/nvm), rather than through the [website](https://nodejs.org/en/download/)
 
-
 ### Certificates fail to verify
 
 installing [`certifi`](https://pypi.org/project/certifi/) will fix the following error:
